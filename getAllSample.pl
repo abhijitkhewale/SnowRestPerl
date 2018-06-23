@@ -9,9 +9,9 @@
  use REST::Client;
  
  # Set the request parameters
- my $host = 'https://dev22279.service-now.com/';
- my $user = 'admin';
- my $pwd = 'shraddha06##';
+ my $host = 'YOUR URL';
+ my $user = 'ADMIN USER';
+ my $pwd = 'YOUR PASSWD';
  
  my $client = REST::Client->new(host => $host);
  
